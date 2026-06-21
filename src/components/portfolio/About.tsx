@@ -97,7 +97,7 @@ export function About() {
 
           <div className="mt-8 grid grid-cols-3 gap-4">
             {[
-              { target: 10, suffix: "+", label: "Projects" },
+              { target: 5, suffix: "+", label: "Projects" },
               { target: 4, suffix: "+", label: "Certifications" },
               { target: 0, suffix: "", label: "Curiosity", symbol: true },
             ].map((s) => (
